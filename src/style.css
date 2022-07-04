@@ -6,7 +6,7 @@
     display: table;
 }
 .text{
-    border:1px solid red;
+    /* border:1px solid red; */
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -94,9 +94,351 @@
     display:block;
     color: white;
 }
+
+/* task2 */
+
+.The_power_Of_Premium_para{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+.flex_parent{
+    /* border: 1px solid black; */
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.flex_container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.flex_item1{
+    /* border: 1px solid black; */
+    width: 25%;
+}
+
+.flex_item2{
+    /* border: 1px solid black; */
+    width: 25%;
+    align-items: center;
+}
+
+.flex_item3{
+    /* border: 1px solid black; */
+    width: 25%;
+}
+
+.flex_item4{
+    /* border: 1px solid black; */
+    width: 25%;
+}
+
+
+.maintain_image_size{
+    /* border: 1px solid green; */
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.imgSize{
+    width:50%;
+}
+
+.Ad_free_music_listening_para{
+    font-weight: bold;
+}
+.Enjoy_uninterrupted_music_para{
+    font-size: smaller;
+}
+
+
+@media (max-width: 700px){
+    .flex_container{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .maintain_image_size{
+        display: inline;
+    }
+    .textt{
+        display: inline;
+    } 
+}
+
+
+/* task 3 */
+
+#parent_div_container{
+    background-color: black;
+}
+
+#Connect_with_music_culture{
+    color: white;
+    padding-top: 3%;
   
+}
+
+.change_text_color{
+    color: white;
+}
+
+#give_padding{
+    padding-bottom: 4%;
+}
+
+/* task 4 */
+
+.container-flex{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 3%;
+}
+.flex_item{
+    /* border: 1px solid greenyellow; */
+    box-shadow: 0px 0px 13px 3px #c2bfbf;
+    width: 24%;
+    border-radius: 2%;
+    margin-bottom: 6%;
+    
+}
+
+/* #flex_item0{
+    margin-top: ;
+} */
+
+.adjust_margin{
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+}
+
+.manage_margin{
+    margin: 4%; 
+    
+}
+
+.One_time_plans_available{
+    border: 1px solid blue;
+}
+
+#month_free{
+    visibility: hidden;
+}
+
+.view_plans{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.Terms-and-conditions-apply{
+   font-size: 11px;
+}
+
+#hr{
+    margin-top: 3%;
+}
+
+.indivisual{
+    margin-top: 1%;
+}
+
+/* .check_icon{
+    padding-right: 20px;
+} */
+.Group_Session_para{
+    font-size:small;
+    font-weight: 500;
+}
+
+.Listen_without_limits{
+    font-size: smaller;
+    font-weight: 450;
+}
+
+.manage_image_sizee{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.Special_discounts{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    padding: 13px;
+    box-shadow: 0px 0px 13px 3px #c2bfbf;
+    margin-bottom: 6%;
+}
+.Special_discounts_para {
+    margin-right: 9px;
+}
+
+#Learn_more{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 16px;
+}
+
+@media (max-width: 700px){
+    .container-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex_item{
+        /* border: 1px solid greenyellow; */
+        width: 100%;
+        border-radius: 2%;
+    }
+
+    .Special_discounts{
+        border: 1px solid black;
+        width: 90%;
+        border-radius: 8px;
+    }
+}
+
+/* task 5 */
+.main_div{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 6%;
+}
+
+.main_div p i {
+    float:right;
+    color: purple;
+}
+
+
+/* task 6 */
+
+.main_footer_block{
+    border: 1px solid black;
+    background-color: black;
+}
+
+.footer{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer1{
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+}
+.footer2{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    width: 50%;
+}
+.footer3{
+    text-align: center;
+    width: 25%;
+    border: 1px solid black;
+}
+.footer1 i{
+    font-size: 38px;
+    color: white;
+}
+
+.Spotify{
+    font-size: 30px;
+    color: white;
+    margin-left: 2%;
+}
+    
+.footer3 i{
+    font-size: 40px;
+    margin: 2%;
+    color: white;
+}
+
+.flex_container_item p{
+    color: white;
+    font-size: small;
+}
 
 
 
 
+.footer_anchor{
+   
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+}
 
+.footer_anchor .footer4 a{
+   text-decoration: none;
+   font-size: 0.6rem;
+   padding: 10px;
+   color: gray;
+
+}
+.footer4 a:hover {
+    color: green;
+}
+
+.footer5{
+   font-size: 0.6rem;
+    margin-right: 8%;
+    color: gray;
+}
+
+
+.footer .footer2 .anchor_heading{
+    color: gray;
+    font-weight: bold;
+}
+
+@media (max-width: 700px){
+    .footer1 {
+        width: 98%;
+        text-align: start;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    
+    .footer{
+        margin-top: 8%;
+        display: flex;
+        flex-direction:column;
+        /* justify-content: space-around; */
+    }
+
+    .footer2{
+        display: flex;
+        border: 1px solid black;
+        justify-content: space-around;
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .flex_container_item{
+        margin-bottom: 25px;
+    }
+
+}
